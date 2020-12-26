@@ -123,9 +123,9 @@ html {
 }
 
 .my_nav_bar {
-    position:sticky;
-    top:0;
-    z-index:99999;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 
 input {
@@ -135,6 +135,27 @@ input {
 .table {
     margin-left: auto;
     margin-right: auto;
-    background-color:lightgreen;
-    color:darkblue;
+    background-color: lightgreen;
+    color: darkblue;
+}
+
+.campus_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.campus_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.campus_mainDiv hr {
+    width: 100%
+}
+
+.campus_mainDiv h5,
+campus_mainDiv p {
+    margin-left: 20px;
 }
